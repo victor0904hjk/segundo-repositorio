@@ -52,11 +52,11 @@
 
     @media screen and(win-width: 1728px) {
         .carrossel__container {
-            display:flex;
+            display: flex;
             margin: 0 20vw 3em 20vw;
             align-items: center;
 
-            
+
         }
 
         .swiper-pagination {
@@ -65,6 +65,5 @@
         }
 
         .swiper {
-            width: 50%
-            ;
+            width: 50%;
         }
