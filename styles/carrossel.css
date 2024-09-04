@@ -24,8 +24,6 @@
 .swiper-pagination {
     position: initial;
     margin: 0.5em 0;
-
-
 }
 
 @media screen and (win-width: 1024px) {
@@ -48,22 +46,23 @@
 
 
     }
+}
+
+@media screen and(win-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
 
 
-    @media screen and(win-width: 1728px) {
-        .carrossel__container {
-            display: flex;
-            margin: 0 20vw 3em 20vw;
-            align-items: center;
+    }
 
+    .swiper-pagination {
+        margin: 1em 0;
 
-        }
+    }
 
-        .swiper-pagination {
-            margin: 1em 0;
-
-        }
-
-        .swiper {
-            width: 50%;
-        }
+    .swiper {
+        width: 50%;
+    }
+}
